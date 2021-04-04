@@ -1,0 +1,236 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#acacdd, #FFCCCC,#dcf7f7);
+}
+
+.row1 {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#header {
+    background: linear-gradient(45deg, #eecfcf,#e3f8f8);
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    width: 900px;
+    border-style: solid;
+    border-color: #b3afaf;
+    border-width: 1px;
+    border-radius: 20px;
+    color: #e5c0c7;
+    font-family: Coronetscript;
+    font-size: 80px;
+    box-shadow: 10px 10px #d7e4d9;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    top: 90%;
+    box-shadow: 15px 15px #f0d8dd;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #f7f6e3,#f3e8d7);
+}
+
+.pText {
+    margin: 65px;
+    font-family: Coronetscript;
+    font-size: 25px;
+    color: #a1cac3;
+    line-height: 40px;
+}
+
+#photoGrid {
+    display: grid;
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    width: 1000px;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 60px 50px;
+    grid-auto-flow: row;
+}
+
+.pFrame {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #d8bebe;
+}
+
+.bigPhotos {
+    display: flex;
+    position: relative;
+    margin: auto;
+    left: 250px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 1000px;
+    height: 280px;
+}
+
+.pSmall {
+    width: 300px;
+    height: 390px;
+    border-radius: 10px;
+    background-color:  #f1e7e7;
+}
+
+.pBig {
+    width: 500px;
+    height: 280px;
+    border-radius: 10px;
+    background-color: #f1e7e7;
+}
+
+#sugar1 {
+    position: absolute;
+    left: 150px;
+    bottom: 400px;
+    transform: rotate(-30deg);
+}
+
+#sugar2 {
+    position: absolute;
+    right: 100px;
+    bottom: 200px;
+    transform: rotate(0deg);
+}
+
+#sugar3 {
+    position: absolute;
+    left: 400px;
+    top: 900px;
+    transform: rotate(-40deg);
+}
+
+#sugar4 {
+    position: absolute;
+    right: 300px;
+    top: 1100px;
+    transform: rotate(30deg);
+}
+
+#sugar5 {
+    position: absolute;
+    left: 300px;
+    top: 1600px;
+    transform: rotate(-10deg);
+}
+
+#sugar6 {
+    position: absolute;
+    right: 500px;
+    top: 1800px;
+    transform: rotate(0deg);
+}
+
+
+#sugar8 {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin-top: 30px;
+    animation-name: dance;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dance {
+    50% {
+        transform: rotate(10deg);
+    }
+}
+
+.star {
+    position: fixed;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#star1 {
+    animation-name: sparkle;
+    left: 100px;
+    top: 35px;
+}
+
+#star2 {
+    animation-name: sparkle;
+    left: 200px;
+    top: 123px;
+}
+
+#star3 {
+    animation-name: sparkle;
+    left: 50px;
+    top: 270px;
+}
+
+#star4 {
+    animation-name: sparkle;
+    left: 290px;
+    top: 570px;
+}
+
+#star5 {
+    animation-name: sparkle;
+    left: 65px;
+    top: 700px;
+}
+
+#star6 {
+    animation-name: sparkle;
+    left: 600px;
+    top: 800px;
+}
+
+#star7 {
+    animation-name: sparkle;
+    right: 200px;
+    top: 800px;
+}
+
+#star8 {
+    animation-name: sparkle;
+    right: 150px;
+    top: 60px;
+}
+
+#star9 {
+    animation-name: sparkle;
+    right: 300px;
+    top: 250px;
+}
+
+#star10 {
+    animation-name: sparkle;
+    right: 50px;
+    top: 500px;
+}
+
+#star11 {
+    animation-name: sparkle;
+    right: 600px;
+    top: 820px;
+}
+
+
+@keyframes sparkle{
+    20% {
+        transform: scale(.5);
+        opacity: 0.5;
+    }
+}
